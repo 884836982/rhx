@@ -8,7 +8,7 @@ Initialized empty Git repository in 你的路径
 git add 文件名（表示将对应的文件名放入暂存区）
 git add -A 放入当前文件夹下的所有内容；
 git status 查看暂存区状态（不支持中文）
-绿色表示最新状态
+绿色表示最新状态,红色表示不是最新状态的文件
 git commit -m 所有暂存区内的数据放入本地仓库；必须添加注释
 版本号的概念：
 abf774c 版本号对应本地仓库是唯一的；这个版本好是一个hash值（唯一值）；
